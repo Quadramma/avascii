@@ -13,6 +13,6 @@ $(function() {
 		//require('./def.menu')();
 		menuDef();
 		//require('./def.game')();
-		fsm.go('game');
+		fsm.go('intro');
 	});
 })
