@@ -1,0 +1,55 @@
+
+
+div,ul,li {
+	margin: 0;
+	padding: 0;
+}
+
+
+#stateContainer form{}
+#stateContainer form div{}
+#stateContainer form button{}
+#stateContainer form button:hover{}
+#stateContainer form a{}
+#stateContainer form a:hover{}
+#stateContainer form p{}
+#stateContainer form h2{}
+#stateContainer form h3{}
+#stateContainer form h4{}
+#stateContainer form h5{}
+#stateContainer form input:focus,#stateContainer form input:hover{
+    outline-offset: 0px;
+    outline: 0;
+    background: rgba(0,0,0,0.05);
+}
+#stateContainer form input{
+    width: 100%;
+    min-width: 320px;
+    border: 0px;
+    border-bottom: 1px solid black;
+    margin: 5px 5px 0px 5px;
+}
+#stateContainer form textarea{
+    display: table;
+    border-left: 5px solid black;
+    border-top: 10px solid black;
+    border-right: 5px solid black;
+    border-bottom: 4px solid black;
+    margin: 0 auto;
+    min-width: 320px;
+}
+
+div#debug{
+    width: 100%;
+    min-height: 100px;
+    background-color: rgba(0,0,0,.9);
+    color: white;
+    padding: 5px;
+}
+div#debug ul{
+    text-align: left;
+}
+div#debug ul li{
+    border-left: 2px solid white;
+    padding-left: 5px;
+}
